@@ -37,7 +37,10 @@ const Home = () => {
             />
 
             <div className="flex flex-col items-center justify-center gap-4 z-10 h-full relative px-4">
-                <Badge variant={"secondary"} className="rounded-3xl">
+                <Badge
+                    variant={"secondary"}
+                    className="rounded-3xl animate-bounce hover:scale-110 transition-all duration-300 hover:text-accent-foreground"
+                >
                     <ToolCase className="h-5 w-5" />
                     Under Development
                 </Badge>
